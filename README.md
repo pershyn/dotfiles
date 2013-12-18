@@ -10,13 +10,13 @@ Fire up terminal and run next commands:
 
 ```
 # clone dotfiles repository
-$ git clone https://github.com/pershyn/dotfiles.git ~/.dotfiles
+git clone https://github.com/pershyn/dotfiles.git ~/.dotfiles
 # link configs
-$ ln -s ~/.dotfiles/vim ~/.vim
-$ ln -s ~/.vim/vimrc ~/.vimrc
-$ ln -s ~/.dotfiles/tmux.com ~/.tmux.conf
+ln -s ~/.dotfiles/vim ~/.vim
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.dotfiles/tmux.com ~/.tmux.conf
 # clone neobunde (before running vim)
-$ git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 On the first start vim will ask to install bundles, example below. Agree :-)
 
