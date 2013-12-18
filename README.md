@@ -14,7 +14,7 @@ git clone https://github.com/pershyn/dotfiles.git ~/.dotfiles
 # link configs
 ln -s ~/.dotfiles/vim ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-ln -s ~/.dotfiles/tmux.com ~/.tmux.conf
+ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 # clone neobunde (before running vim)
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
