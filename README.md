@@ -11,10 +11,14 @@ Fire up terminal and run next commands:
 ```
 # clone dotfiles repository
 git clone https://github.com/pershyn/dotfiles.git ~/.dotfiles
+
 # link configs
 ln -s ~/.dotfiles/vim ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
+ln -s ~/.dotfiles/gitignore ~/.gitignore
+ln -s ~/.dotfiles/gitconfig ~/.gitconfig
+
 # clone neobunde (before running vim)
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
