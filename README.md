@@ -36,8 +36,8 @@ Notes:
 This repository contains:
 
 * vim config (with neobundle).
-* global git ignore with ide stuff that should not be ignored per project (part of personal env and not project env).
-* global git config with couple handy alliases.
+* global `gitignore` with ide-generated or persistent files that should be ignored by git, but should not be present in per-project `.gitignore`. They are part of personal development env and not project env.
+* global `gitconfig` with couple useful alliases.
 * tmux config - with key bindings that are imho very convenient (check them out ;)
 
 
