@@ -72,6 +72,9 @@ filetype plugin on
 " Highlight all search results
 :set hlsearch
 
+" Add the 80-symbols marker
+:set colorcolumn=80
+
 fun! <SID>StripTrailingWhitespaces()
     let l = line(".")
     let c = col(".")
