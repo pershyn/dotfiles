@@ -18,6 +18,7 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
 ln -s ~/.dotfiles/gitignore ~/.gitignore
 ln -s ~/.dotfiles/gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/my.cnf ~/.my.cnf
 
 # clone neobunde (before running vim)
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
@@ -38,6 +39,6 @@ This repository contains:
 * vim config (with neobundle).
 * global `gitignore` with ide-generated or persistent files that should be ignored by git, but should not be present in per-project `.gitignore`. They are part of personal development env and not project env.
 * global `gitconfig` with couple useful alliases.
-* tmux config - with key bindings that are imho very convenient (check them out ;)
-
+* tmux config - with key bindings that are imho very convenient (check them out ;).
+* custom mysql/mariadb prompt that shows user, host and database.
 
