@@ -3,7 +3,8 @@
 	diff = auto
 	status = auto
 [push]
-	default = matching
+	# Prefer to push branches one by one
+	default = simple
 [core]
 	excludesfile = ~/.gitignore
 	editor = vim
